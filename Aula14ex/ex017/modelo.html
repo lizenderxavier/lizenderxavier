@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arco</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+    
+    <header> <!--cabeçalho -->
+      <h1>Arco  Super Tabuada [x1000]</h1>
+    </header>
+    <section id="h" >
+        
+        <div id="dados">
+           <p>Número: <input type="number" id="num"> <input type="button" value="Gerar Tabuada" onclick="Tabe()"></p>
+        </div>
+        <input type="search" id="placa"> <input type="button" value="Procurar resultado" onclick="busca()">
+    
+        <div >
+            <select id="sel2" size="1">
+                
+            </select>
+
+            
+           <select id="sel" size="1000">
+               <option> Digite um Número acima </option>
+
+           </select>
+            <!--- size="12" serve para o tamanho do selector!
+               <option value="v1"> Tabuada </option><!value="v1" faz-se a cada option! serve mais para o php
+           -->
+                 
+        </div>
+
+    </section>
+    <footer><!--Roda-pé-->
+     <p>&copy; LizenderlmxLAB</p>
+    </footer>
+    <script src="site.js"></script>
+    
+</body>
+</html>
